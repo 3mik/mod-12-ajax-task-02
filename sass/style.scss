@@ -16,13 +16,16 @@ body {
         bottom: 0;
         left: 0;        
         width: 80%;
-        height: 60%;
+        height: 70%;
         text-align: center;
         .box {
-            margin-top: 60px;
+            margin-top: 8%;
             h3 {
-                margin-top: 50px;
+                margin-top: 5%;
             }
+        }
+        .trigger {
+            cursor: pointer;
         }
         .btn-wrap {
             position: absolute;
@@ -42,15 +45,16 @@ body {
                 font-size: 18px;                
             }
 
-            button.trigger {
+            button {
                 background-color: $primary-color;
                 border: none;
                 font-size: 18px;
                 color: $secondary-color; 
-                cursor: pointer;               
+                cursor: pointer;                               
             }
             
             a.tweet {
+                display: block;
                 text-decoration: none;
                 color: $secondary-color;
             }
